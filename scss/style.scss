@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+@import "normalize";
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #464f54;
+    font-family: proxima_nova_rgregular, Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1060px;
+    margin: 2%;
+    margin-left: 29%;
+    position: absolute;
+}
+.box {
+    width: 436px;
+    background: #181818;
+    height: 93px;
+    padding-left: 24px;
+    position: absolute;
+    margin-left: 14.5%;
+    margin-top: 6%;
+    &__header {
+        color: #767676;
+        font-size: 7, 5px;
+        margin-bottom: -26px;
+        display: block;
+        padding-top: 2px;
+    }
+    &__input {
+        color: #fff;
+        margin-top: 7%;
+        background: none;
+        outline: none;
+        width: 412px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: #303030;
+        font-size: 24px;
+    }
+}
+.small__box {
+    width: 410px;
+    background-color: #f8be2d;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    margin-left: 17%;
+    margin-top: 14.77%;
+    position: absolute;
+    &__imgs {
+        margin-right: 15px;
+        height: 15px;
+        display: inline-block;
+        opacity: .5;
+    }
+    &__imgs:hover {
+        opacity: 1;
+    }
+}
+.big__box {
+    width: 531px;
+    height: -751px;
+    background: #fff;
+    padding: 7%;
+    margin-top: 10%;
+    &__h5 {
+        color: #b4b4b4;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    &__h1 {
+        font-size: 47px;
+        color: #2a2a2a;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    &__h6 {
+        font-size: 14px;
+        margin-top: 1px;
+        color: #8f8f8f;
+    }
+    &__paragraph {
+        width: 400px;
+        margin-top: -10px;
+        font-size: 13px;
+    }
+}
